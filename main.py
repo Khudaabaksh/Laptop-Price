@@ -39,7 +39,7 @@ if __name__ == '__main__':
     ram_type = st.selectbox('Select RAM type (in GB):',
                             ram_options)
     hd_size = st.selectbox('Choose HD size (in GB):',
-                           (32, 64, 128, 256, 512, 1000, 1128, 1256, 1512, 2000))
+                           (32, 64, 128, 256, 512, 1024, 1128, 1256, 1512, 2000))
     hd_type = st.selectbox('Select any HD type',
                            ('HDD', 'EMMC', 'SSD', 'Hybrid'))
 
